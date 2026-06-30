@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 import os
-os.chdir("C:\\Users\\kesha\\Downloads\\")
+# os.chdir("C:\\Users\\kesha\\Downloads\\")
 
 #Title for the Page
 st.set_page_config(
