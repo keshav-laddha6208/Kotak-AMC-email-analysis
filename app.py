@@ -12,8 +12,9 @@ st.set_page_config(
 )
 
 #Reading the excel sheet and creating a dataframe
-filepath = "master_data.xlsx"
-df = pd.read_excel(filepath, sheet_name = "Master Data")
+df = pd.read_excel(
+    "master_data.xlsx",
+    sheet_name="Master Data"
 
 #Main title of the report
 st.title("Email Analysis: Kotak AMC vis-à-vis Competitors for FY 2025–26")
